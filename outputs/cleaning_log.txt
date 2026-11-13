@@ -1,0 +1,16 @@
+Cleaning log for USW00013743 (Washington Reagan National Airport (Arlington, VA))
+format: NOAA access CSV (wide)
+raw rows (all years): 32,942
+rows in 1990-01-01..2025-12-31: 13,149
+duplicate dates removed: 0
+TMAX: values with failed NOAA QC flag set to missing (all years): 0
+TMIN: values with failed NOAA QC flag set to missing (all years): 0
+PRCP: values with failed NOAA QC flag set to missing (all years): 0
+units: TMAX/TMIN tenths degC -> degC; PRCP tenths mm -> mm
+TMAX: outside [-40,50] set to missing: 0
+TMIN: outside [-40,40] set to missing: 0
+PRCP: outside [0,500] set to missing: 0
+complete calendar days: 13,149; days with no record at all: 0
+TMAX: missing days after cleaning: 0 (0.00%)
+TMIN: missing days after cleaning: 0 (0.00%)
+PRCP: missing days after cleaning: 1 (0.01%)

@@ -1,0 +1,20 @@
+seasonal_baseline (threshold 0.107)
+              pred 0   pred 1
+  actual 0      594      142
+  actual 1       16       13
+
+persistence (threshold 0.500)
+              pred 0   pred 1
+  actual 0      722       14
+  actual 1       14       15
+
+logistic_regression (threshold 0.784)
+              pred 0   pred 1
+  actual 0      707       29
+  actual 1       10       19
+
+random_forest (threshold 0.793)
+              pred 0   pred 1
+  actual 0      718       18
+  actual 1       14       15
+

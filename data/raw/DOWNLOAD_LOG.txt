@@ -1,0 +1,4 @@
+source: https://www.ncei.noaa.gov/data/global-historical-climatology-network-daily/access/USW00013743.csv
+station: USW00013743 Washington Reagan National Airport (Arlington, VA)
+downloaded_utc: 2026-11-13T07:14Z
+bytes: 12425221

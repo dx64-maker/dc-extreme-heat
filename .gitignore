@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+data/raw/_transfer*
+.codecarbon.config
+
+# Raw NOAA download (12 MB, not versioned).
+# Re-fetched by `python -m src.data_download`; provenance in data/raw/DOWNLOAD_LOG.txt
+data/raw/*.csv

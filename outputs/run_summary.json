@@ -1,0 +1,32 @@
+{
+  "station": "USW00013743 Washington Reagan National Airport (Arlington, VA)",
+  "extreme_threshold_C": 35.6,
+  "extreme_threshold_F": 96.1,
+  "rows": {
+    "train": 3978,
+    "val": 765,
+    "test": 765
+  },
+  "events": {
+    "train": 159,
+    "val": 29,
+    "test": 29
+  },
+  "selected_params": {
+    "logistic_regression": {
+      "C": "0.01",
+      "class_weight": "balanced"
+    },
+    "random_forest": {
+      "max_depth": "4",
+      "min_samples_leaf": "20",
+      "class_weight": "balanced_subsample"
+    }
+  },
+  "decision_thresholds": {
+    "logistic_regression": 0.7837,
+    "random_forest": 0.7932,
+    "seasonal_baseline": 0.1067,
+    "persistence": 0.5
+  }
+}
